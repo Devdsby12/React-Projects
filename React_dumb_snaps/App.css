@@ -1,0 +1,131 @@
+body{
+  margin:10px;
+  background-color: #b42929;
+  font-family: Arial;
+  color:white;
+}
+
+.app{
+  padding:20px;
+}
+
+.header{
+  text-align:center;
+  background-color:#1e1e1e;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+
+.card{
+  background-color:#222;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+
+.counter{
+  background-color:#333;
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+
+button{
+  padding:10px 20px;
+  margin:5px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-size:18px;
+}
+
+button:hover{
+  transform:scale(1.05);
+}
+
+.onButton{
+  background-color:lime;
+  color:black;
+}
+
+.offButton{
+  background-color:red;
+  color:white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    width: 300px;
+    background-color: rgb(34,34,34);
+    color: rgb(23, 164, 131);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 1.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.13);
+    transform: rotate(20 deg);
+}
+
+.card img{
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.card h3,
+.card h5,
+.card p{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: aliceblue;
+}
+@media (max-width :700px) {
+  .card{ width: 50%;}
+  
+}
+
+.codebox{
+    background-color: rgb(25,25,25);
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    width: 80vw;
+
+    color: white;
+    margin: auto;
+}
+
+.topbar{
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+button{
+    background: transparent;
+
+    border: none;
+
+    color: white;
+
+    font-size: 20px;
+
+    cursor: pointer;
+}
